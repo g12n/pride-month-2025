@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <svg viewBox="-100 -100 200 200"  xmlns="http://www.w3.org/2000/svg">
   <circle r="100" fill="orangered"/>
-  <circle id="cell" r="50" fill="gold" opacity="0.5">
+  <circle id="cell" r="45" fill="orange" opacity="0.4">
       <animateTransform
       attributeName="transform"
       type="rotate"
@@ -17,7 +17,7 @@
     <animateTransform
       attributeName="transform"
       type="translate"
-      values="0 0; 40 0; 0 0"
+      values="0 0; 45 0; 0 0"
       keyTimes="0; 0.5; 1"
        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
       calcMode="spline"
