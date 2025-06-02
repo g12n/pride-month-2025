@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="no"?>
+<svg viewBox="-100 -100 200 200"  xmlns="http://www.w3.org/2000/svg">
+  <circle r="100" fill="orangered"/>
+  
+
+   <path id="flower" 
+         d="m 0 0
+           a 80 80 0 0 1 0 -80
+           a 80 80 0 0 1 0 80
+           a 80 80 0 0 1 60 -60
+           a 80 80 0 0 1 -60 60
+           a 80 80 0 0 1 80 0
+           a 80 80 0 0 1 -80 0
+           a 80 80 0 0 1 60 60
+           a 80 80 0 0 1 -60 -60
+           a 80 80 0 0 1 0 80
+           a 80 80 0 0 1 0 -80
+           a 80 80 0 0 1 -60 60
+           a 80 80 0 0 1 60 -60
+           a 80 80 0 0 1 -80 0
+           a 80 80 0 0 1 80 0
+           a 80 80 0 0 1 -60 -60
+           a 80 80 0 0 1 60 60
+           z
+           "
+           fill="orange"
+      />
+          <use href="#flower" transform="rotate(20) scale(1.1 1.1)" opacity="0.5"/>
+
+  <circle r="40" fill="darkorange"></circle>
+
+  <circle r="20" fill="orange"></circle>
+
+</svg>

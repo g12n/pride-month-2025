@@ -1,30 +1,37 @@
 <?xml version="1.0" standalone="no"?>
 <svg viewBox="-100 -100 200 200"  xmlns="http://www.w3.org/2000/svg">
   <circle r="100" fill="orangered"/>
-  <circle r="70" fill="orange"/>
+  <circle id="cell" r="50" fill="gold" opacity="0.5">
+      <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="0; 360 "
+      keyTimes="0;1"
 
-   <path id="flower" 
-         d="m 0 0
-           a 80 80 0 0 1 0 -80
-           a 80 80 0 0 1 0 80
-           a 80 80 0 0 1 60 -60
-           a 80 80 0 0 1 -60 60
-           a 80 80 0 0 1 80 0
-           a 80 80 0 0 1 -80 0
-           a 80 80 0 0 1 60 60
-           a 80 80 0 0 1 -60 -60
-           a 80 80 0 0 1 0 80
-           a 80 80 0 0 1 0 -80
-           a 80 80 0 0 1 -60 60
-           a 80 80 0 0 1 60 -60
-           a 80 80 0 0 1 -80 0
-           a 80 80 0 0 1 80 0
-           a 80 80 0 0 1 -60 -60
-           a 80 80 0 0 1 60 60
-           z
-           "
-           fill="white"
+      dur="24s"
+      repeatCount="indefinite"
+      additive="sum"
+        begin="-6s"
       />
-  <use href="#flower" transform="rotate(20)" opacity="0.8"/>
-  <circle r="15" fill="darkorange"></circle>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 40 0; 0 0"
+      keyTimes="0; 0.5; 1"
+       keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      calcMode="spline"
+      dur="12s"
+      repeatCount="indefinite"
+      additive="sum"
+      begin="-6s"
+      />
+  </circle>
+<use href="#cell" transform="rotate(45)"/>
+<use href="#cell" transform="rotate(90)"/>
+<use href="#cell" transform="rotate(135)"/>
+<use href="#cell" transform="rotate(180)"/>
+<use href="#cell" transform="rotate(225)"/>
+<use href="#cell" transform="rotate(270)"/>
+<use href="#cell" transform="rotate(315)"/>
 </svg>

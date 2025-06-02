@@ -1,5 +1,75 @@
 <?xml version="1.0" standalone="no"?>
 <svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
-  <circle r="100" fill="blue"/> 
   
+  <clipPath id="circle">
+  <circle r="100" />    
+  </clipPath>
+  <circle r="100" fill="deepskyblue"/> 
+  <g clip-path="url(#circle)">
+  <path d="m -350 0 
+  a50 50 0 0 0 100 0 
+  a50 50 0 0 1 100 0
+  a50 50 0 0 0 100 0
+  a50 50 0 0 1 100 0
+  a50 50 0 0 0 100 0
+  v100h-400z"
+  fill="navy">
+  <animateTransform id="turn"
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      from="0 0"
+      to="200 0"
+      dur="8s"
+      repeatCount="indefinite" />
+</path>
+
+<circle r="20" fill="navy" >
+<animateTransform
+id="circle1"
+      attributeName="transform"
+      type="translate"
+      from="-100 0"
+      to="100 0"
+      dur="8s"
+      repeatCount="indefinite"
+      additive="sum" />
+
+      <animateTransform
+      attributeName="transform"
+      type="scale"
+      values="0 1; 1 1; 1 1; 1 1; 0 1"
+      keyTimes="0;0.25; 0.5;0.75; 1"
+keySplines="0 0 0.58 1; 0 0 1 1; 0 0 1 1; 0.42 0 1 1"      calcMode="spline"
+      dur="8s"
+      repeatCount="indefinite"
+      additive="sum"/>
+</circle>
+
+<circle r="20" fill="deepskyblue" >
+<animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-100 0"
+      to="100 0"
+      dur="8s"
+      repeatCount="indefinite"
+      additive="sum"
+      begin="-4s" />
+
+      <animateTransform
+      attributeName="transform"
+      type="scale"
+      values="0 1; 1 1; 1 1; 1 1; 0 1"
+      keyTimes="0;0.15; 0.5;0.85; 1"
+      keySplines="0 0 0.58 1; 0 0 1 1; 0 0 1 1; 0.42 0 1 1"
+      calcMode="spline"
+      dur="8s"
+      repeatCount="indefinite"
+      additive="sum"
+      begin="-4s"
+      />
+</circle>
+<circle r="100" fill="none" stroke="deepskyblue" stroke-width="4"/> 
+</g>
 </svg>

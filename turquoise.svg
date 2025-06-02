@@ -1,5 +1,12 @@
 <?xml version="1.0" standalone="no"?>
 <svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
-  <circle r="100" fill="paleturquoise"/> 
-  paleturquoise
+  <circle r="100" fill="darkcyan"/> 
+  
+  <circle r="80" fill="mintcream"/> 
+  <path d="m-100 0
+  a130 130 0 0 1 200 0
+  a130 130 0 0 1 -200 0
+  "   fill="paleturquoise"/>
+  <circle r="40" fill="darkturquoise"/>   
+  <circle r="20" fill="darkslategrey"/>
 </svg>

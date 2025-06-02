@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
-<svg width="1200" height="1200" viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
   <mask id="rayClip">
-   <path d="m 0 40
+   <path d="m 0 0
           q -5 -10 0 -20
            t 0 -20
            t 0 -20
@@ -12,24 +12,22 @@
            h -40
            v 140
            z"
-           transform="rotate(-24,0,-90)"
+           transform="rotate(-12,0,-90)"
            fill="#fff">
       <animateTransform
       attributeName="transform"
       attributeType="XML"
       type="translate"
       from="0 0"
-      to="0 -40"
-      dur="6s"
+      to="0 40"
+      dur="2s"
       additive="sum" 
       repeatCount="indefinite" />
     </path>
   </mask>
                               
   <circle r="100" fill="goldenrod"/>
-  <circle r="90" fill="darkgoldenrod"/>
-<g id="sun">
-
+  <circle r="80" fill="darkgoldenrod"/>
 <g id="ray" mask="url(#rayClip)">
   <path  d="m 0 40
           q -5 -10 0 -20
@@ -42,7 +40,7 @@
            h 40
            v 140
            z"
-           transform="rotate(24,0,-80)"
+           transform="rotate(12,0,-80)"
            fill="gold"
     >
       <animateTransform
@@ -51,23 +49,34 @@
       type="translate"
       from="0 0"
       to="0 -40"
-      dur="6s"
+      dur="8s"
       additive="sum" 
       repeatCount="indefinite" />
   </path>
 </g>
-<use href="#ray" transform=" rotate(30,0,0) "/>
+   
+
+<circle r="1" cy="-80"/>
+
+
+<use href="#ray" transform=" rotate(20,0,0) "/>
+<use href="#ray" transform="rotate(40,0,0)"/>
 <use href="#ray" transform="rotate(60,0,0)"/>
-<use href="#ray" transform="rotate(90,0,0)"/>
+<use href="#ray" transform="rotate(80,0,0)"/>
+<use href="#ray" transform="rotate(100,0,0)"/>
 <use href="#ray" transform="rotate(120,0,0)"/>
-<use href="#ray" transform="rotate(150,0,0)"/>
+<use href="#ray" transform="rotate(140,0,0)"/>
+<use href="#ray" transform="rotate(160,0,0)"/>
 <use href="#ray" transform="rotate(180,0,0)"/>
-<use href="#ray" transform="rotate(210,0,0)"/>
+<use href="#ray" transform="rotate(200,0,0)"/>
+<use href="#ray" transform="rotate(220,0,0)"/>
 <use href="#ray" transform="rotate(240,0,0)"/>
-<use href="#ray" transform="rotate(270,0,0)"/>
+<use href="#ray" transform="rotate(260,0,0)"/>
+<use href="#ray" transform="rotate(280,0,0)"/>
 <use href="#ray" transform="rotate(300,0,0)"/>
-<use href="#ray" transform="rotate(330,0,0)"/>
-</g>
-<use href="#sun" transform="rotate(19,0,0) scale(-1,1)" opacity="0.3"/>
-<circle r="45" fill="#fff" opacity="0.5"/>
+<use href="#ray" transform="rotate(320,0,0)"/>
+<use href="#ray" transform="rotate(340,0,0)"/>
+
+<circle r="30" fill="darkorange"/>
+
 </svg>
