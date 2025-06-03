@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle r="100" fill="purple"/>
+
+
+ 
+  <mask id="flameMask" >
+    <g transform="translate(-3,-10)">
+    <circle r="40" fill="#fff"/>
+  <path d="m 0 120 q 25 -20 0 -40t0-40 0-40 0-40 0-40 h150v200 " stroke="#555" stroke-width="3" >
+ <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      from="0 0"
+      to="0 -80"
+      dur="4s"
+      additive="sum" 
+      repeatCount="indefinite" />
+
+  </path>
+  <path d="m -2 60 q 20 -20 0 -40t0-40t0-40 0-40 0-40h-150v200"/>
+</g>
+</mask>
+
+   <circle r="50" fill="#fff" mask="url(#flameMask)"/>
+ 
+  <path d="m-86.5 0
+     a 300 300 0 0 0  173 0 
+     a 50 50 0 0 1  -173 0 
+    "
+    fill="mediumorchid"
+    />
+    
+</svg>

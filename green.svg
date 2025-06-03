@@ -1,17 +1,48 @@
 <?xml version="1.0" standalone="no"?>
 <svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
   <circle r="100" fill="lightgreen"/>
-  <use href="#leave" transform="translate(0,24) rotate(-80) scale(1.4,1.4)"></use>
-  <use href="#leave" transform="translate(0,24) rotate(80) scale(-1.4,1.4)"></use>
-  <use href="#leave" transform="translate(0,12) rotate(-45) scale(1.2,1.2)"></use>
-  <use href="#leave" transform="translate(0,12) rotate(45) scale(-1.2,1.2)"></use>
 
-
-
-  <g id="leave" >
-  <path d="m0 0 q -20 -10 0 -40 z" fill="green"></path>
-  <path d="m0 0 q 20 -10 0 -40 z" fill="forestgreen"></path>
-  </g>
   
-  
+  <path d=" m-10 20
+    a 15 15 0 1 1 -20 -22
+    a 15 15 0 1 1 -10 -20
+    a 15 15 0 1 1 30 -20
+    a 15 15 0 1 1 20 10
+    a 15 15 0 1 1 20 20
+    a 15 15 0 1 1 -10 30
+    a 15 15 0 1 1 -30 0
+ 
+    "
+    fill="forestgreen"
+    />
+      <path d=" m-10 20
+    a 10 10 0 1 1 -20 -22
+    a 10 10 0 1 1 -10 -20
+    a 10 10 0 1 1 30 -20
+    a 10 10 0 1 1 20 10
+    a 10 10 0 1 1 20 20
+    a 10 10 0 1 1 -10 30
+    m -20 -20
+    v 80
+    m 0 -60
+    l 10 -10
+     m -10 -0
+    l -6 -6
+    "
+    fill="none"
+    stroke="black"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    />
+
+     <path d="m-86.5 50
+     a 200 200 0 0 0  173 0 
+     a 100 100 0 0 1  -173 0 
+    "
+    fill="green"
+    />
+
+  <circle r="95" stroke-width="10" fill="none" stroke="darkgreen"/>
+
 </svg>
