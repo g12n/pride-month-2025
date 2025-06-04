@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-90 -90 180 180">
+  <defs>
+    <clipPath id="myClip">
+      <path d="M80-240q5 40 0 80t0 80 0 80 0 80H-80v-320">
+        <animateTransform attributeName="transform" dur="1.5s" from="0 0" repeatCount="indefinite" to="0 160" type="translate"/>
+      </path>
+    </clipPath>
+    <path id="stripe" d="M-340-80q40 9 80 0t80 0 80 0 80 0 80 0 80 0 80 0 80 0 80 0l10 15q-40 9-80 0t-80 0-80 0-80 0-80 0-80 0-80 0-80 0-80 0z">
+      <animateTransform attributeName="transform" dur="2s" from="0 0" repeatCount="indefinite" to="160 0" type="translate"/>
+    </path>
+  </defs>
+  <g id="flag" clip-path="url(#myClip)">
+    <use fill="red" href="#stripe" transform="translate(10 20)"/>
+    <use fill="orange" href="#stripe" transform="translate(20 40)"/>
+    <use fill="gold" href="#stripe" transform="translate(30 60)"/>
+    <use fill="green" href="#stripe" transform="translate(40 80)"/>
+    <use fill="#00f" href="#stripe" transform="translate(50 100)"/>
+    <use fill="#9400d3" href="#stripe" transform="translate(60 120)"/>
+  </g>
+</svg>
