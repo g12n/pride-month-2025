@@ -1,3 +1,5 @@
+![pride flag](flag.svg)
+
 The original Rainbow Flag, introduced in 1978, was designed by Gilbert Baker, an American artist and gay rights activist. Commissioned by San Francisco City Supervisor Harvey Milk, the flag debuted at the San Francisco Gay Freedom Day Parade on June 25, 1978. Baker, along with collaborators including Lynn Segerblom (also known as Faerie Argyle Rainbow) and James McNamara, hand-dyed and stitched the flag with the help of volunteers. The flag was conceived as a symbol of hope and liberation for the LGBTQ+ community, moving away from the negative connotations of previous symbols like the pink triangle. ([GLBT Historical Society][3], [Wikipedia][4])
 
 The original flag featured eight colored stripes, each with its own meaning:([GLBT Historical Society][3])
